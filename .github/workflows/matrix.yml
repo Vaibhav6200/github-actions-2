@@ -3,7 +3,7 @@ on:
     push:
         branches: [master]
 jobs:  
-    Build:
+    build:
         continue-on-error: true
         strategy:
             matrix:
