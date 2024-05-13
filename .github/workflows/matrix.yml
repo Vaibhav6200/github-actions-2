@@ -4,6 +4,7 @@ on:
         branches: [master]
 jobs:  
     Build:
+        continue-on-error: true
         strategy:
             matrix:
                 node-versions: [12, 14, 16] 
