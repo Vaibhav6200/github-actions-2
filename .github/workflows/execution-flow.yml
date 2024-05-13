@@ -41,4 +41,4 @@ jobs:
     
     deploy:
         needs: build
-        uses: Vaibhav6200/github-actions-2/.github/workflows/reusable.yml
+        uses: ./.github/workflows/reusable.yml@master
